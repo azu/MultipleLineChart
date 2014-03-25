@@ -1,9 +1,5 @@
 //
 //  ToolTipView.h
-//  DiabetesNote
-//
-//  Created by meetaworks on 2013/02/17.
-//  Copyright (c) 2013年 meetaworks. All rights reserved.
 //
 
 
