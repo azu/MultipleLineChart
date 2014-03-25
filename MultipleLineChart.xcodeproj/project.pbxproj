@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C147FE9CBBC7E225427C /* GraphGroupDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CD52465E80F8558E7187 /* GraphGroupDataSource.m */; };
+		17B5C3B5636228E8831A2BAB /* LineChartTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6D5491F2119D5747155 /* LineChartTileView.m */; };
+		17B5C3CE46F1DF73AD4B2EEF /* ToolTipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CED2E0DA510430B0B2E6 /* ToolTipView.xib */; };
+		17B5C6B6F9D5999A0DF5ECE1 /* LineChartTileView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C57785032C43CDDAF990 /* LineChartTileView~ipad.xib */; };
+		17B5C790A9588C7B1FEAD2CB /* GraphAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C5C953BEC8CF22E67CDF /* GraphAxisView.m */; };
+		17B5C7F6BE09DE9E4676E1EA /* BodyWeightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CF119740F9C94150E13F /* BodyWeightView.m */; };
+		17B5C92869F6DF576AC61D38 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CBBAB15EAE7CD51C0972 /* VerticallyAlignedLabel.m */; };
+		17B5C9DB89B90F7AEFF32EF4 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1FD7051CBB4769DF072 /* readme.md */; };
+		17B5CA628B9160B82FE04A59 /* LineChartTileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CB3A6D10CAA42EF69210 /* LineChartTileView.xib */; };
+		17B5CBD1E90358E4B5599A01 /* GraphValueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CAE5124EC7501A5CE86B /* GraphValueModel.m */; };
+		17B5CC091FEA6D303C686494 /* BodyWeightGraphViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CEB2BFFF656A2A1A0509 /* BodyWeightGraphViewModel.m */; };
+		17B5CC329D4AFB50E2001520 /* BodyWeightGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C06929AFA3F289D52F4B /* BodyWeightGraphViewController.m */; };
+		17B5CD0A6B97C9D07E1CF406 /* ToolTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C1D0C4753F9322217C8C /* ToolTipView.m */; };
+		17B5CEE6036C8017189BA3A3 /* LineChartPlotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CCFFE1F508130A53A441 /* LineChartPlotData.m */; };
 		73ED998B18E16C4500FF76D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED998A18E16C4500FF76D6 /* Foundation.framework */; };
 		73ED998D18E16C4500FF76D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED998C18E16C4500FF76D6 /* CoreGraphics.framework */; };
 		73ED998F18E16C4500FF76D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED998E18E16C4500FF76D6 /* UIKit.framework */; };
@@ -14,14 +28,13 @@
 		73ED999718E16C4500FF76D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED999618E16C4500FF76D6 /* main.m */; };
 		73ED999B18E16C4500FF76D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED999A18E16C4500FF76D6 /* AppDelegate.m */; };
 		73ED999E18E16C4500FF76D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73ED999C18E16C4500FF76D6 /* Main.storyboard */; };
-		73ED99A118E16C4500FF76D6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED99A018E16C4500FF76D6 /* MasterViewController.m */; };
-		73ED99A418E16C4500FF76D6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED99A318E16C4500FF76D6 /* DetailViewController.m */; };
 		73ED99A618E16C4500FF76D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73ED99A518E16C4500FF76D6 /* Images.xcassets */; };
 		73ED99AD18E16C4500FF76D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED99AC18E16C4500FF76D6 /* XCTest.framework */; };
 		73ED99AE18E16C4500FF76D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED998A18E16C4500FF76D6 /* Foundation.framework */; };
 		73ED99AF18E16C4500FF76D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73ED998E18E16C4500FF76D6 /* UIKit.framework */; };
 		73ED99B718E16C4500FF76D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73ED99B518E16C4500FF76D6 /* InfoPlist.strings */; };
 		73ED99B918E16C4500FF76D6 /* MultipleLineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED99B818E16C4500FF76D6 /* MultipleLineChartTests.m */; };
+		CABFAF09C378499BAD7454F8 /* libPods-MultipleLineChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C074EB4687A04FABB49ED91E /* libPods-MultipleLineChart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5C06929AFA3F289D52F4B /* BodyWeightGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyWeightGraphViewController.m; sourceTree = "<group>"; };
+		17B5C162F225441FEEE1F80B /* BodyWeightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyWeightView.h; sourceTree = "<group>"; };
+		17B5C1D0C4753F9322217C8C /* ToolTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolTipView.m; sourceTree = "<group>"; };
+		17B5C1FD7051CBB4769DF072 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5C57785032C43CDDAF990 /* LineChartTileView~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "LineChartTileView~ipad.xib"; sourceTree = "<group>"; };
+		17B5C5B58C095FED7767FBAE /* ToolTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolTipView.h; sourceTree = "<group>"; };
+		17B5C5C123B6B335C8D037B2 /* LineChartTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartTileView.h; sourceTree = "<group>"; };
+		17B5C5C953BEC8CF22E67CDF /* GraphAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphAxisView.m; sourceTree = "<group>"; };
+		17B5C6D5491F2119D5747155 /* LineChartTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartTileView.m; sourceTree = "<group>"; };
+		17B5C706325EAB7230FB19B6 /* BodyWeightGraphViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyWeightGraphViewModel.h; sourceTree = "<group>"; };
+		17B5C787B44A388C10D2341F /* GraphValueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphValueModel.h; sourceTree = "<group>"; };
+		17B5C7E81E50ABB653C2D8F2 /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
+		17B5C92C53AA44696F689FF7 /* BodyWeightGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyWeightGraphViewController.h; sourceTree = "<group>"; };
+		17B5C991DCD4F3FFA017F482 /* GraphGroupDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphGroupDataSource.h; sourceTree = "<group>"; };
+		17B5CAE5124EC7501A5CE86B /* GraphValueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphValueModel.m; sourceTree = "<group>"; };
+		17B5CB3A6D10CAA42EF69210 /* LineChartTileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LineChartTileView.xib; sourceTree = "<group>"; };
+		17B5CBBAB15EAE7CD51C0972 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
+		17B5CCFFE1F508130A53A441 /* LineChartPlotData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartPlotData.m; sourceTree = "<group>"; };
+		17B5CD3BBE5A9C6E264ABE8F /* GraphAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphAxisView.h; sourceTree = "<group>"; };
+		17B5CD52465E80F8558E7187 /* GraphGroupDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphGroupDataSource.m; sourceTree = "<group>"; };
+		17B5CEB2BFFF656A2A1A0509 /* BodyWeightGraphViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyWeightGraphViewModel.m; sourceTree = "<group>"; };
+		17B5CED2E0DA510430B0B2E6 /* ToolTipView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolTipView.xib; sourceTree = "<group>"; };
+		17B5CF119740F9C94150E13F /* BodyWeightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyWeightView.m; sourceTree = "<group>"; };
+		17B5CF284363AD5C66C8797C /* LineChartPlotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartPlotData.h; sourceTree = "<group>"; };
+		1D52E3BD84B64EC8B9B6B174 /* Pods-MultipleLineChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleLineChart.xcconfig"; path = "Pods/Pods-MultipleLineChart.xcconfig"; sourceTree = "<group>"; };
 		73ED998718E16C4500FF76D6 /* MultipleLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73ED998A18E16C4500FF76D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73ED998C18E16C4500FF76D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +84,13 @@
 		73ED999918E16C4500FF76D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73ED999A18E16C4500FF76D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		73ED999D18E16C4500FF76D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		73ED999F18E16C4500FF76D6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		73ED99A018E16C4500FF76D6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		73ED99A218E16C4500FF76D6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		73ED99A318E16C4500FF76D6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		73ED99A518E16C4500FF76D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		73ED99AB18E16C4500FF76D6 /* MultipleLineChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleLineChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73ED99AC18E16C4500FF76D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		73ED99B418E16C4500FF76D6 /* MultipleLineChartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleLineChartTests-Info.plist"; sourceTree = "<group>"; };
 		73ED99B618E16C4500FF76D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73ED99B818E16C4500FF76D6 /* MultipleLineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleLineChartTests.m; sourceTree = "<group>"; };
+		C074EB4687A04FABB49ED91E /* libPods-MultipleLineChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultipleLineChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +101,7 @@
 				73ED998D18E16C4500FF76D6 /* CoreGraphics.framework in Frameworks */,
 				73ED998F18E16C4500FF76D6 /* UIKit.framework in Frameworks */,
 				73ED998B18E16C4500FF76D6 /* Foundation.framework in Frameworks */,
+				CABFAF09C378499BAD7454F8 /* libPods-MultipleLineChart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +118,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5C070D8F9A9FEEE583218 /* BodyWeight */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C162F225441FEEE1F80B /* BodyWeightView.h */,
+				17B5CF119740F9C94150E13F /* BodyWeightView.m */,
+			);
+			path = BodyWeight;
+			sourceTree = "<group>";
+		};
+		17B5C3E365436182372EE700 /* ToolTipView */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C5B58C095FED7767FBAE /* ToolTipView.h */,
+				17B5C1D0C4753F9322217C8C /* ToolTipView.m */,
+				17B5CED2E0DA510430B0B2E6 /* ToolTipView.xib */,
+				17B5C7E81E50ABB653C2D8F2 /* VerticallyAlignedLabel.h */,
+				17B5CBBAB15EAE7CD51C0972 /* VerticallyAlignedLabel.m */,
+			);
+			path = ToolTipView;
+			sourceTree = "<group>";
+		};
+		17B5C5AA497553092F0A6D3A /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C1FD7051CBB4769DF072 /* readme.md */,
+				17B5CABC2C2743260ACF7ECA /* GraphViewController */,
+				17B5C85929558FEEBDA9E00B /* GraphModel */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		17B5C62750A346630B8673A1 /* LineChartTileView */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C5C123B6B335C8D037B2 /* LineChartTileView.h */,
+				17B5C6D5491F2119D5747155 /* LineChartTileView.m */,
+				17B5CB3A6D10CAA42EF69210 /* LineChartTileView.xib */,
+				17B5C57785032C43CDDAF990 /* LineChartTileView~ipad.xib */,
+			);
+			path = LineChartTileView;
+			sourceTree = "<group>";
+		};
+		17B5C85929558FEEBDA9E00B /* GraphModel */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C787B44A388C10D2341F /* GraphValueModel.h */,
+				17B5CAE5124EC7501A5CE86B /* GraphValueModel.m */,
+				17B5CF284363AD5C66C8797C /* LineChartPlotData.h */,
+				17B5CCFFE1F508130A53A441 /* LineChartPlotData.m */,
+				17B5C991DCD4F3FFA017F482 /* GraphGroupDataSource.h */,
+				17B5CD52465E80F8558E7187 /* GraphGroupDataSource.m */,
+			);
+			path = GraphModel;
+			sourceTree = "<group>";
+		};
+		17B5CABC2C2743260ACF7ECA /* GraphViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CD11C91DD66D005F1B6C /* AxisView */,
+				17B5C070D8F9A9FEEE583218 /* BodyWeight */,
+				17B5C3E365436182372EE700 /* ToolTipView */,
+				17B5C62750A346630B8673A1 /* LineChartTileView */,
+				17B5C706325EAB7230FB19B6 /* BodyWeightGraphViewModel.h */,
+				17B5CEB2BFFF656A2A1A0509 /* BodyWeightGraphViewModel.m */,
+				17B5C92C53AA44696F689FF7 /* BodyWeightGraphViewController.h */,
+				17B5C06929AFA3F289D52F4B /* BodyWeightGraphViewController.m */,
+			);
+			path = GraphViewController;
+			sourceTree = "<group>";
+		};
+		17B5CD11C91DD66D005F1B6C /* AxisView */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CD3BBE5A9C6E264ABE8F /* GraphAxisView.h */,
+				17B5C5C953BEC8CF22E67CDF /* GraphAxisView.m */,
+			);
+			path = AxisView;
+			sourceTree = "<group>";
+		};
 		73ED997E18E16C4500FF76D6 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +204,7 @@
 				73ED99B218E16C4500FF76D6 /* MultipleLineChartTests */,
 				73ED998918E16C4500FF76D6 /* Frameworks */,
 				73ED998818E16C4500FF76D6 /* Products */,
+				1D52E3BD84B64EC8B9B6B174 /* Pods-MultipleLineChart.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +224,7 @@
 				73ED998C18E16C4500FF76D6 /* CoreGraphics.framework */,
 				73ED998E18E16C4500FF76D6 /* UIKit.framework */,
 				73ED99AC18E16C4500FF76D6 /* XCTest.framework */,
+				C074EB4687A04FABB49ED91E /* libPods-MultipleLineChart.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,12 +235,9 @@
 				73ED999918E16C4500FF76D6 /* AppDelegate.h */,
 				73ED999A18E16C4500FF76D6 /* AppDelegate.m */,
 				73ED999C18E16C4500FF76D6 /* Main.storyboard */,
-				73ED999F18E16C4500FF76D6 /* MasterViewController.h */,
-				73ED99A018E16C4500FF76D6 /* MasterViewController.m */,
-				73ED99A218E16C4500FF76D6 /* DetailViewController.h */,
-				73ED99A318E16C4500FF76D6 /* DetailViewController.m */,
 				73ED99A518E16C4500FF76D6 /* Images.xcassets */,
 				73ED999118E16C4500FF76D6 /* Supporting Files */,
+				17B5C5AA497553092F0A6D3A /* GraphView */,
 			);
 			path = MultipleLineChart;
 			sourceTree = "<group>";
@@ -164,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73ED99BC18E16C4500FF76D6 /* Build configuration list for PBXNativeTarget "MultipleLineChart" */;
 			buildPhases = (
+				E0F6F2B21BE648A38E0DFD3A /* Check Pods Manifest.lock */,
 				73ED998318E16C4500FF76D6 /* Sources */,
 				73ED998418E16C4500FF76D6 /* Frameworks */,
 				73ED998518E16C4500FF76D6 /* Resources */,
+				F2FBE8A48D8D4FD0A6D4DEE5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +352,10 @@
 				73ED99A618E16C4500FF76D6 /* Images.xcassets in Resources */,
 				73ED999518E16C4500FF76D6 /* InfoPlist.strings in Resources */,
 				73ED999E18E16C4500FF76D6 /* Main.storyboard in Resources */,
+				17B5C9DB89B90F7AEFF32EF4 /* readme.md in Resources */,
+				17B5C3CE46F1DF73AD4B2EEF /* ToolTipView.xib in Resources */,
+				17B5CA628B9160B82FE04A59 /* LineChartTileView.xib in Resources */,
+				17B5C6B6F9D5999A0DF5ECE1 /* LineChartTileView~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,15 +369,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E0F6F2B21BE648A38E0DFD3A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2FBE8A48D8D4FD0A6D4DEE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MultipleLineChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73ED998318E16C4500FF76D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				73ED999B18E16C4500FF76D6 /* AppDelegate.m in Sources */,
-				73ED99A118E16C4500FF76D6 /* MasterViewController.m in Sources */,
 				73ED999718E16C4500FF76D6 /* main.m in Sources */,
-				73ED99A418E16C4500FF76D6 /* DetailViewController.m in Sources */,
+				17B5C790A9588C7B1FEAD2CB /* GraphAxisView.m in Sources */,
+				17B5C7F6BE09DE9E4676E1EA /* BodyWeightView.m in Sources */,
+				17B5CD0A6B97C9D07E1CF406 /* ToolTipView.m in Sources */,
+				17B5C92869F6DF576AC61D38 /* VerticallyAlignedLabel.m in Sources */,
+				17B5C3B5636228E8831A2BAB /* LineChartTileView.m in Sources */,
+				17B5CC091FEA6D303C686494 /* BodyWeightGraphViewModel.m in Sources */,
+				17B5CC329D4AFB50E2001520 /* BodyWeightGraphViewController.m in Sources */,
+				17B5CBD1E90358E4B5599A01 /* GraphValueModel.m in Sources */,
+				17B5CEE6036C8017189BA3A3 /* LineChartPlotData.m in Sources */,
+				17B5C147FE9CBBC7E225427C /* GraphGroupDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +542,7 @@
 		};
 		73ED99BD18E16C4500FF76D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D52E3BD84B64EC8B9B6B174 /* Pods-MultipleLineChart.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,12 +550,14 @@
 				GCC_PREFIX_HEADER = "MultipleLineChart/MultipleLineChart-Prefix.pch";
 				INFOPLIST_FILE = "MultipleLineChart/MultipleLineChart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		73ED99BE18E16C4500FF76D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D52E3BD84B64EC8B9B6B174 /* Pods-MultipleLineChart.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +565,7 @@
 				GCC_PREFIX_HEADER = "MultipleLineChart/MultipleLineChart-Prefix.pch";
 				INFOPLIST_FILE = "MultipleLineChart/MultipleLineChart-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -466,6 +631,7 @@
 				73ED99BE18E16C4500FF76D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73ED99BF18E16C4500FF76D6 /* Build configuration list for PBXNativeTarget "MultipleLineChartTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +640,7 @@
 				73ED99C118E16C4500FF76D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
