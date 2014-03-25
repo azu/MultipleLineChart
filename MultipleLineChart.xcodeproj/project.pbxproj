@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C0EAA647AD2FEB898B7C /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CA1898FC7ACE03D0E7E3 /* readme.md */; };
 		17B5C147FE9CBBC7E225427C /* GraphGroupDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CD52465E80F8558E7187 /* GraphGroupDataSource.m */; };
 		17B5C3B5636228E8831A2BAB /* LineChartTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6D5491F2119D5747155 /* LineChartTileView.m */; };
 		17B5C3CE46F1DF73AD4B2EEF /* ToolTipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CED2E0DA510430B0B2E6 /* ToolTipView.xib */; };
@@ -60,6 +61,7 @@
 		17B5C7E81E50ABB653C2D8F2 /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
 		17B5C92C53AA44696F689FF7 /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
 		17B5C991DCD4F3FFA017F482 /* GraphGroupDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphGroupDataSource.h; sourceTree = "<group>"; };
+		17B5CA1898FC7ACE03D0E7E3 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5CAE5124EC7501A5CE86B /* GraphValueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphValueModel.m; sourceTree = "<group>"; };
 		17B5CB3A6D10CAA42EF69210 /* LineChartTileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LineChartTileView.xib; sourceTree = "<group>"; };
 		17B5CBBAB15EAE7CD51C0972 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				73ED998918E16C4500FF76D6 /* Frameworks */,
 				73ED998818E16C4500FF76D6 /* Products */,
 				1D52E3BD84B64EC8B9B6B174 /* Pods-MultipleLineChart.xcconfig */,
+				17B5CA1898FC7ACE03D0E7E3 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,6 +346,7 @@
 				17B5C3CE46F1DF73AD4B2EEF /* ToolTipView.xib in Resources */,
 				17B5CA628B9160B82FE04A59 /* LineChartTileView.xib in Resources */,
 				17B5C6B6F9D5999A0DF5ECE1 /* LineChartTileView~ipad.xib in Resources */,
+				17B5C0EAA647AD2FEB898B7C /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

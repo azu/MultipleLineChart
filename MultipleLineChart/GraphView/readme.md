@@ -20,8 +20,8 @@
 つまり、ひとつのグラフに複数の種類の線が引ける。
 
 * グラフのDataSource
+    * [ ラベルとなる文字列 ]
     * [`<GraphGroupDataSource>`]
-        * [ ラベルとなる文字列 ]
         * [`<GraphValueModel>`]
 
 ## グラフのView
