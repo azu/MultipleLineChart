@@ -4,8 +4,8 @@
 
 
 #import <ArsScale/ArsScaleLinear.h>
-#import "BodyWeightGraphViewController.h"
-#import "BodyWeightGraphViewModel.h"
+#import "LineChartViewController.h"
+#import "LineChartGraphViewModel.h"
 #import "LineChartTileView.h"
 #import "UIView+MHNibLoading.h"
 #import "GraphAxisView.h"
@@ -14,19 +14,19 @@
 #import "ASTMap.h"
 
 
-@interface BodyWeightGraphViewController ()
+@interface LineChartViewController ()
 @property(weak, nonatomic) IBOutlet DARecycledScrollView *plotScrollView;
 @property(weak, nonatomic) IBOutlet GraphAxisView *yAxisView;
-@property(strong, nonatomic) BodyWeightGraphViewModel *graphViewModel;
+@property(strong, nonatomic) LineChartGraphViewModel *graphViewModel;
 @property(nonatomic, strong) ArsScaleLinear *yScale;
 @end
 
-@implementation BodyWeightGraphViewController {
+@implementation LineChartViewController {
 
 }
-- (BodyWeightGraphViewModel *)graphViewModel {
+- (LineChartGraphViewModel *)graphViewModel {
     if (_graphViewModel == nil) {
-        _graphViewModel = [[BodyWeightGraphViewModel alloc] init];
+        _graphViewModel = [[LineChartGraphViewModel alloc] init];
     }
     return _graphViewModel;
 }
@@ -58,25 +58,25 @@
 }
 
 - (void)recycledScrollView:(DARecycledScrollView *) scrollView configureTileView:(DARecycledTileView *) tileView forIndex:(NSUInteger) index {
-    LineChartTileView *bodyWeightDataView = (LineChartTileView *)tileView;
-    [bodyWeightDataView reset];
-    bodyWeightDataView.yScale = self.yScale;
+    LineChartTileView *lineChartTileView = (LineChartTileView *)tileView;
+    [lineChartTileView reset];
+    lineChartTileView.yScale = self.yScale;
     NSArray *rangeIndex = ArsRange(@0, @([self.graphViewModel numberOfLines]));
-    bodyWeightDataView.dateLabel.text = [self.graphViewModel textAtIndex:index];
-    bodyWeightDataView.plotDataArray = ASTMap(rangeIndex, ^id(NSNumber *number) {
+    lineChartTileView.dateLabel.text = [self.graphViewModel textAtIndex:index];
+    lineChartTileView.plotDataArray = ASTMap(rangeIndex, ^id(NSNumber *number) {
         LineChartIndexPath indexPath = {.lineNumber = [number unsignedIntegerValue], .dataNumber = index};
         return [self.graphViewModel plotDataAtIndexPath:indexPath];
     });
-    [bodyWeightDataView setNeedsDisplay];
+    [lineChartTileView setNeedsDisplay];
 }
 
 - (DARecycledTileView *)tileViewForRecycledScrollView:(DARecycledScrollView *) scrollView {
-    LineChartTileView *bodyWeightDataView = (LineChartTileView *)[scrollView dequeueRecycledTileView];
-    if (bodyWeightDataView == nil) {
-        bodyWeightDataView = [LineChartTileView loadInstanceFromNib];
-        bodyWeightDataView.backgroundColor = [UIColor clearColor];
+    LineChartTileView *lineChartTileView = (LineChartTileView *)[scrollView dequeueRecycledTileView];
+    if (lineChartTileView == nil) {
+        lineChartTileView = [LineChartTileView loadInstanceFromNib];
+        lineChartTileView.backgroundColor = [UIColor clearColor];
     }
-    return bodyWeightDataView;
+    return lineChartTileView;
 }
 
 - (CGFloat)widthForTileAtIndex:(NSInteger) index1 scrollView:(DARecycledScrollView *) scrollView {

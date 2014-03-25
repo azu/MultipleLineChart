@@ -14,7 +14,7 @@ struct LineChartIndexPath {
 };
 typedef struct LineChartIndexPath LineChartIndexPath;
 
-@interface BodyWeightGraphViewModel : NSObject
+@interface LineChartGraphViewModel : NSObject
 - (NSInteger)numberOfLines;
 
 - (NSInteger)numberOfData;

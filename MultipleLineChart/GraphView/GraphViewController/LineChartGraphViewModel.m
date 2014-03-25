@@ -3,19 +3,19 @@
 //
 
 
-#import "BodyWeightGraphViewModel.h"
+#import "LineChartGraphViewModel.h"
 #import "ArsMinMax.h"
 #import "GraphGroupDataSource.h"
 #import "ASTMap.h"
 #import "LineChartPlotData.h"
 #import "ArsRange.h"
 
-@interface BodyWeightGraphViewModel ()
+@interface LineChartGraphViewModel ()
 @property(nonatomic, strong) NSArray *graphDataSources;
 @property(nonatomic, strong) NSArray *axisLabels;
 @end
 
-@implementation BodyWeightGraphViewModel {
+@implementation LineChartGraphViewModel {
 
 }
 - (void)reloadData {

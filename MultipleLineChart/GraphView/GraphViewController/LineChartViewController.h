@@ -10,6 +10,6 @@
 @class GraphGroupDataSource;
 
 
-@interface BodyWeightGraphViewController : UIViewController <DARecycledScrollViewDataSource>
+@interface LineChartViewController : UIViewController <DARecycledScrollViewDataSource>
 
 @end

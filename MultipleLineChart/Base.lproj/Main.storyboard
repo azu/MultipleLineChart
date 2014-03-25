@@ -22,7 +22,7 @@
         <!--Body Weight Graph View Controller-->
         <scene sceneID="qId-w8-9kF">
             <objects>
-                <viewController storyboardIdentifier="BodyWeightGraphViewController" id="Kof-QJ-lnE" customClass="BodyWeightGraphViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BodyWeightGraphViewController" id="Kof-QJ-lnE" customClass="LineChartViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Eq-4Y-Otz"/>
                         <viewControllerLayoutGuide type="bottom" id="BY3-VZ-Ssh"/>
