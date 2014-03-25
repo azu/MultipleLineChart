@@ -1,0 +1,29 @@
+PODS:
+  - ArsDashFunction (0.0.1)
+  - ArsScale (0.1.2):
+    - ArsDashFunction (~> 0.0.1)
+  - Asterism (0.0.6)
+  - DARecycledScrollView (1.0.2)
+  - DrowningGraphicer (0.0.1)
+  - MHNibLoading (0.1.0)
+
+DEPENDENCIES:
+  - ArsScale
+  - Asterism (~> 0.0.6)
+  - DARecycledScrollView
+  - DrowningGraphicer (from `https://github.com/azu/DrowningGraphicer.git`)
+  - MHNibLoading
+
+EXTERNAL SOURCES:
+  DrowningGraphicer:
+    :git: https://github.com/azu/DrowningGraphicer.git
+
+SPEC CHECKSUMS:
+  ArsDashFunction: 0e4923f8fd46ba6935c83cf561af9340ee50b84a
+  ArsScale: 94ecd9cfe9695a89c69a1079b9f747a519d5939c
+  Asterism: 3f4e5cab9e908d15e91e0d1147bed32e22ce16c5
+  DARecycledScrollView: b5a522916eb7e06a331bd05351e9c4a3b897760e
+  DrowningGraphicer: 10d2880bc456215802ffdccdd463827ce6df408c
+  MHNibLoading: 6fcb543105209ca0a7b576c5120a6bcf8b916e02
+
+COCOAPODS: 0.29.0
